@@ -1,0 +1,19 @@
+local TestingLocations = Instance.new("ScreenGui")
+local Label = Instance.new("TextLabel")
+
+TestingLocations.Name = "TestingLocations"
+TestingLocations.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+TestingLocations.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Label.Name = "Label"
+Label.Parent = TestingLocations
+Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label.BackgroundTransparency = 1.000
+Label.Position = UDim2.new(0.416873455, 0, 0.450292408, 0)
+Label.Size = UDim2.new(0.165425971, 0, 0.0974658877, 0)
+Label.Font = Enum.Font.SourceSans
+Label.Text = "In Lobby"
+Label.TextColor3 = Color3.fromRGB(255, 0, 0)
+Label.TextScaled = true
+Label.TextSize = 14.000
+Label.TextWrapped = true
